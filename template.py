@@ -16,7 +16,7 @@ from sklearn.preprocessing import StandardScaler
 
 def load_dataset(dataset_path):
 	#To-Do: Implement this function
-	load_data=pd.read_csv(dataset_path)	
+	load_data=pd.read_csv('./'+dataset_path)	
 	return load_data
 
 def dataset_stat(dataset_df):	
